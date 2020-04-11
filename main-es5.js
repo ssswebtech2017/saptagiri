@@ -1022,7 +1022,6 @@
                 function EquiryFormComponent() {
                 }
                 EquiryFormComponent.prototype.ngOnInit = function () {
-                    $("#enquiryModal").modal('show');
                     $('#enquiryForm').on('submit', function (event) {
                         event.preventDefault(); // prevent reload
                         var formData = new FormData(this);

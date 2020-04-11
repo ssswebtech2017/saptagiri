@@ -1073,7 +1073,6 @@ __webpack_require__.r(__webpack_exports__);
 let EquiryFormComponent = class EquiryFormComponent {
     constructor() { }
     ngOnInit() {
-        $("#enquiryModal").modal('show');
         $('#enquiryForm').on('submit', function (event) {
             event.preventDefault(); // prevent reload
             var formData = new FormData(this);
